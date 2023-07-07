@@ -1,7 +1,17 @@
+import { Navbar, Welcome, Footer, Services, Location, Features, GiftDiv } from "./components";
+
 function App() {
   return (
     <>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+    <div className="w-full relative">
+      <Navbar />
+      <Welcome />
+    </div>
+      <Services />
+      <Location />
+      <Features />
+      <GiftDiv />
+      <Footer />
     </>
   );
 }
