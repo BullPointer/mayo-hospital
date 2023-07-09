@@ -34,7 +34,7 @@ const data = [
 ];
 const Location = () => {
   return (
-    <div className="grid grid-cols-3 bg-white px-2">
+    <div className="grid grid-cols-1 xsm:grid-cols-2 avg:grid-cols-3 bg-white px-2">
       <div className="flex flex-col gap-4 justify-center items-start h-[310px] m-5 px-2 rounded-xl">
         <h1 className="text-4xl font-bold">Locations</h1>
         <h2 className="text-lg">

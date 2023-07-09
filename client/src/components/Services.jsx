@@ -5,9 +5,9 @@ import Img2 from "../assets/world_view.jpg";
 
 const Services = () => {
   return (
-    <>
-      <div className="grid grid-cols-2 grid-flow-col min-h-[700px]">
-        <div className="flex flex-col bg-white justify-center items-center px-32 order-first">
+    <div className="">
+      <div className="grid grid-rows-2 xsm:grid-rows-1 xsm:grid-cols-2 grid-flow-col min-h-[700px]">
+        <div className="flex flex-col bg-white justify-center items-center px-4 avg:px-32 order-first">
           <h1 className="text-4xl font-semibold font-mono">
             Healing starts here
           </h1>
@@ -46,12 +46,12 @@ const Services = () => {
           </div>
         </div>
         <div className="flex flex-row justify-center items-center bg-white w-full">
-          <img src={Img1} alt="" className="w-[80%] h-[90%]  rounded-3xl" />
+          <img src={Img1} alt="" className="w-[95%] avg:w-[80%] h-[90%]  rounded-3xl" />
         </div>
       </div>
 
-      <div className="grid grid-cols-2 grid-flow-col min-h-[700px]">
-        <div className="flex flex-col bg-white justify-center items-center px-32 order-last">
+      <div className="grid grid-rows-2 xsm:grid-rows-1 xsm:grid-cols-2 grid-flow-col min-h-[700px]">
+        <div className="flex flex-col bg-white justify-center items-center px-4 avg:px-32 xsm:order-last">
           <h1 className="text-4xl font-semibold font-mono">
             Healing starts here
           </h1>
@@ -81,10 +81,10 @@ const Services = () => {
           </div>
         </div>
         <div className="flex flex-row justify-center items-center bg-white w-full">
-          <img src={Img2} alt="" className="w-[80%] h-[90%]  rounded-3xl" />
+          <img src={Img2} alt="" className="w-[95%] avg:w-[80%] h-[90%]  rounded-3xl" />
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
